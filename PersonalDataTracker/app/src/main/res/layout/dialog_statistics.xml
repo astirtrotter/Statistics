@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <!-- Count -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="Count"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_count"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="100"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <!-- Sum of the values -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="Sum of the values"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_sum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="100 kg"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <!-- Maximum value -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="Maximum value"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_max"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="100 kg"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <!-- Minimum value -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="Minimum value"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_min"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="100 kg"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <!-- Average of values -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="Average value"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_avg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="100 kg"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <!-- From -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="From"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_from"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="2016-05-01"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <!-- To -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textAlignment="textEnd"
+            android:text="To"
+            android:textStyle="italic"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_stat_label"/>
+        <TextView
+            android:id="@+id/stat_to"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="5dp"
+            android:textAlignment="center"
+            android:text="2016-06-07"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/font_stat_value"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+        <CheckBox
+            android:id="@+id/stat_check_global_avg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Global Average"/>
+        <CheckBox
+            android:id="@+id/stat_check_10day_avg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10 Day Average"/>
+    </LinearLayout>
+</LinearLayout>
